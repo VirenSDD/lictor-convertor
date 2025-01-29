@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function Home() {
   const ONE_LICTOR_IN_EUROS = 40;
-  const [inputValue, setInputValue] = useState("1");
+  const [inputValue, setInputValue] = useState("40");
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(e.target.value);
